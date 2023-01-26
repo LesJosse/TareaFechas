@@ -9,7 +9,7 @@ const fechaNacimiento = new Date(1996, 11, 02);
 console.log(fechaNacimiento);
 
 // - Un variable que indique si hoy es más tarde (>) que la fecha de tu nacimiento
-const compararFecha = fechaHoy.getTime() === fechaNacimiento.getTime();
+const compararFecha = fechaHoy.getTime() > fechaNacimiento.getTime();
 console.log(compararFecha);
 
 // - Una variable que contenga el día de tu nacimiento
